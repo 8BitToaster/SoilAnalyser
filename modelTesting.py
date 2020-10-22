@@ -65,7 +65,7 @@ while True:
         ribbonTest = max(min(float(input("How long was the dirt ribbon in inches: "))*2.5/5, 1), 0)
 
         gritTest = min(max(float(input("From 0 to 100, how gritty was the soil: "))/100, 0), 1)
-        smoothTest = min(max(float(input("From 0 to 100, how gritty was the soil: "))/100, 0), 1)
+        smoothTest = min(max(float(input("From 0 to 100, how smooth was the soil: "))/100, 0), 1)
 
         values = []
         for value in [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]:
